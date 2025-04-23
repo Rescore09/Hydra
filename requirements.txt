@@ -1,0 +1,8 @@
+win32crypt
+pycryptodome
+requests
+httpx
+colorama
+rich
+pyperclip
+PyQt5
