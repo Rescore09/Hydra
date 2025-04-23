@@ -672,11 +672,30 @@ async def restart_bot(ctx):
     except Exception as e:
         await ctx.send(f"```ansi\n[2;31m[ERROR][0m Restart failed: {str(e)}\n```", delete_after=5)
 
+
+######################
+#   Commands here    #
+######################
+
+
+
+
 #cmd to restart
 @bot.command(name="restart", aliases=["reboot", "reload"])
 async def cmd_restart(ctx):
     await restart_bot(ctx)
 
+
+# copies token to your clipboard
+@bot.command()
+async def token(ctx):
+    import pyperclip
+    tok = get_token()
+    pyperclip.copy(tok)
+
+######################
+#  Commands here end #
+######################
 
 # sniper 
 @bot.event
@@ -847,12 +866,7 @@ nitro_stats = NitroStats()
 
 
 
-# copies token to your clipboard
-@bot.command()
-async def token(ctx):
-    import pyperclip
-    tok = get_token()
-    pyperclip.copy(tok)
+
 
 
 def start_bot(token):
