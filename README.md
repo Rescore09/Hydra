@@ -24,13 +24,12 @@ This secure approach ensures you maintain control over which account is used, an
 - **Account Verification:** Secure account detection and confirmation dialog
 - **Comprehensive Logging:** Keeps detailed logs of detected codes, claims, and activities
 - **Customizable Experience:** Configurable settings to match your preferences
-- **Cross-Platform Support:** Works on Windows, macOS, and Linux
 
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://i.imgur.com/913oCar.png" alt="Login Screen" width="400">
-  <img src="https://i.imgur.com/hcn3kEx.png" alt="Main Interface" width="400">
+  <img src="https://i.imgur.com/913oCar.png" alt="ss1" width="400">
+  <img src="https://i.imgur.com/hcn3kEx.png" alt="ss2" width="400">
 </div>
 
 ## 🚀 Installation
@@ -44,24 +43,23 @@ This secure approach ensures you maintain control over which account is used, an
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/rescore09/hydra-nitro-sniper.git
-   cd hydra-nitro-sniper
+    Install the .zip and unzip it
    ```
 
 2. **Install dependencies:**
    ```
-   pip install -r requirements.txt
+   run setup.bat
    ```
 
 3. **Run the application:**
    ```
-   python hydra.py
+   run start.bat
    ```
 
 ### Required Packages
 
 ```
-discord.py
+discord.py (1.7.3)
 win32crypt
 pycryptodome
 requests
@@ -113,6 +111,7 @@ You can easily add new commands, modify the user interface, or integrate additio
 - This software is provided for educational purposes only
 - The author takes no responsibility for any consequences resulting from the use of this tool
 - Your Discord account may be banned if detected using automated tools
+- I am not responsibile for any harm done by this tool.
 
 ## 🛡️ Safety Tips
 
@@ -132,5 +131,5 @@ For issues, questions, or contributions, please open an issue on the GitHub repo
 ---
 
 <p align="center">
-  <i>Made with ❤️ by Hydra | github.com/rescore09</i>
+  <i>Made with ❤️ by Rescore | github.com/rescore09</i>
 </p>
