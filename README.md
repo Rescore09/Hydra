@@ -43,7 +43,7 @@ This secure approach ensures you maintain control over which account is used, an
 
 1. **Clone the repository:**
    ```
-    Install the .zip and unzip it
+    git clone https://github.com/Rescore09/Hydra.git
    ```
 
 2. **Install dependencies:**
